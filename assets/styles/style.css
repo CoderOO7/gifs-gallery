@@ -1,0 +1,162 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: url('https://user-images.githubusercontent.com/67546884/105997146-2dd80680-60a3-11eb-9e84-8510136081f9.jpeg') no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.content{
+    padding: 2vh;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+    margin: 2vh 0;
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 3.8vmin;
+}
+
+.image__search{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.image__search_form{
+    display: flex;
+    width: 60vmax;
+    border: 1px solid whitesmoke;
+    border-radius: 28px;
+    padding: 0.8vh 0
+}
+
+.image__search_form:hover{
+    box-shadow: 0 1px 6px rgba(255,255,255, 0.9);   
+}
+
+.image__search_input{
+    all: unset;
+    flex:1;
+    font-size: 2.8vh;
+    padding: 0 2vh
+}
+
+.image__search_btn{
+    all: unset;
+    cursor: pointer;
+    padding-right: 2vh;
+}
+
+.image__search_btn--clear{
+    fill: whitesmoke ;
+}
+
+.image__search_btn--seach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid whitesmoke;
+    padding-left: 2vh;
+    fill: rgb(66,133,244);
+}
+
+
+.image__list{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 2vh;
+    padding: 4vh 0;
+}
+
+.image__item{
+   height: 100%;
+   width: 100%;
+}
+
+.image__item > img{
+    height: 100%;
+    object-fit:contain;
+}
+
+.modal{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.err_msg_modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 40vmin;
+    width: 70vmin;
+    padding: 1rem;
+    font-size: 4vmin;
+    color: white;
+    background-color: #2f2f2f;
+    text-align:center;
+    border-radius: 12px;
+}
+
+.err_msg_modal__btn{
+    margin-top: auto;
+    align-self: center;
+    padding: 0.6rem 3rem;
+    font-weight: bold;
+    border-radius: 3vh;
+    background: tomato;
+}
+
+.loading_msg_modal{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.hidden{
+    display: none !important;
+}
+
+@media screen and (orientation: portrait){
+    .image__search_form{
+        padding: 0.8vw 0
+    }
+
+    .image__search_input{
+        padding: 0 2vw;
+        font-size: 2vmax;
+    }
+    
+    .image__search_btn{
+        padding-right: 2vw;
+    }
+
+    .image__list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

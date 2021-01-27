@@ -53,4 +53,4 @@ This project is part of [theodinproject](http://theodinproject.com/) curriculum.
 ## License
 
 - [MIT Licence](https://opensource.org/licenses/MIT)
-- Copyright &copy; 2021
+- Copyright &copy; 2021 by CoderOO7

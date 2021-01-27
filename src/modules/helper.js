@@ -21,7 +21,13 @@ function timeoutPromise(time = 60000){
     });
 }
 
+function request(url, init = {}, timeout) {
+  init = Object.assign({ mode: "cors" }, init);
+  return Promise.race([fetch(url, init), timeoutPromise(timeout)]);
+}
+
 export {
     clearNode,
-    timeoutPromise
+    timeoutPromise,
+    request
 }

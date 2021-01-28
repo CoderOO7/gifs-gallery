@@ -6,9 +6,7 @@ const GifImagesController = (() => {
     }
 
     function emptyStore(){
-        while(_imagesLocalStore.length){
-            _imagesLocalStore.pop();
-        }
+       _imagesLocalStore.length = 0;
     }
 
     function getImages(){

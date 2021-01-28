@@ -27,14 +27,16 @@ https://coderoo7.github.io/gifs-gallery/
 * Node v10+
 > Recommended to use [NVM](https://github.com/creationix/nvm)
 
+
 ## Running project locally
 
-If you are using VSCode then you can install (Live Server) extension. Else you can install node and then can run these commands in terminal.
+Run these commands in terminal.
 
 * `$ git clone https://github.com/CoderOO7/gifs-gallery.git`
 * `$ cd gifs-gallery`
 * `$ npm install`
 * `$ npm run dev`
+
 > It serve the project on http://localhost:1234
 
 

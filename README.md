@@ -12,7 +12,7 @@ https://coderoo7.github.io/gifs-gallery/
 
 <div float="left">
     <img src="https://user-images.githubusercontent.com/67546884/106055358-29344200-60e5-11eb-88ba-4795dc9cf8eb.png" width="300"/>
-    <img src="https://user-images.githubusercontent.com/67546884/106056015-140be300-60e6-11eb-8dff-861534b33d9e.png" width="300"/>
+    <img src="https://user-images.githubusercontent.com/67546884/106188980-96a4a900-619f-11eb-8672-198266c0dc2a.jpeg" width="300"/>
     <img src="https://user-images.githubusercontent.com/67546884/106056014-140be300-60e6-11eb-97e5-622e44d3e19f.png" width="300"/>
 </div>
 
